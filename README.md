@@ -12,8 +12,8 @@ This project focuses on classifying legal documents based on their content using
 - [Data Processing](#data-processing)
 - [Data Visualization](#data-visualization)
 - [Model Training and Evaluation](#model-training-and-evaluation)
-- [Recommendations](#recommendations)
-- [Contributing](#contributing)
+- [Evaluation of Results](#Evaluation-of-Results)
+- [Future Work](#Future-Work)
 
 ### Installation
 
