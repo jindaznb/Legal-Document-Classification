@@ -34,6 +34,12 @@ To set up the project environment, follow these steps:
     
     `pip install -r requirements.txt`
     
+    Create a `requirements.txt` file with the following content:
+    
+
+    
+    `json pandas matplotlib scikit-learn`
+    
 
 ### Data Loading
 
@@ -76,12 +82,6 @@ To set up the project environment, follow these steps:
     
     - The script calculates and prints the model's accuracy and classification report, including precision, recall, and F1-score for each label.
 
-### Recommendations
+### Future Work
 
-The analysis highlights that while the classification model achieves a 60.10% accuracy, its performance is hindered by significant challenges in predicting minority classes. To enhance feasibility and model robustness, it is recommended to:
-
-- Address class imbalance through techniques such as oversampling, undersampling, or synthetic data generation.
-- Optimize model parameters to improve convergence.
-- Explore alternative algorithms better suited for handling imbalanced datasets.
-- Implement feature engineering and k-fold cross-validation for reliable performance assessment.
-- Maintain ongoing monitoring and iteration processes.
+For future development, it is recommended to explore the potential of leveraging Legal BERT, a model specifically designed for legal text processing. The `legal_bert.py` script includes skeleton codes, and the training pipeline has already been completed. Although time limitations, it presents an opportunity for subsequent projects. Utilizing Legal BERT may enhance classification accuracy and better handle the complexities of legal language.
