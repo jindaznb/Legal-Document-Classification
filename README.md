@@ -26,7 +26,7 @@ To set up the project environment, follow these steps:
     
 2. **Set up a virtual environment (optional but recommended):**
         
-    `` python -m venv venv source venv/bin/activate  # On Windows use `venv\notebook `submission.ipynb`s\activate` ``
+    ` python -m venv venv source venv/bin/activate `
     
 3. **Install required packages:** You can install the necessary packages using `pip`. Run the following command:
     
